@@ -1,0 +1,36 @@
+*{
+    /* 所有标签的内外边距清空 */
+    margin:0;
+    padding:0;
+}
+body{
+    /* 统一项目文字大小和字体 */
+    font-size:16px;
+    font-family:"Microsoft YaHei";
+}
+ul,ol,dl{
+    /* 清除列表符号 */
+    list-style:none;
+}
+a,u{
+    /* 清除下划线 */
+    text-decoration:none;
+}
+i,em{
+    /* 不显示倾斜 */
+    font-style:normal;
+}
+b,strong{
+    /* 不显示加粗 */
+    font-weight:normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    font-size:16px;
+}
+img{
+    border:none;
+}
+input{
+   outline:none; 
+}
